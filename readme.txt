@@ -2,5 +2,5 @@
 
 
 -Aaron Romero Juárez
--Edher Carbajal (LordAuch en github)
+-Jose Antonio Garibay
 -
