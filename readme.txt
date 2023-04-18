@@ -2,5 +2,5 @@
 
 
 -Aaron Romero Juárez
--
+-Jose Antonio Garibay
 -
