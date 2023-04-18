@@ -67,7 +67,7 @@ static const GlProcs& GlProcs() {
 namespace flutter {
 
 struct ExternalTextureGLState {
-  GLuint gl_texture = 0;
+  GLuint gl_texture = 1;
 };
 
 ExternalTextureGL::ExternalTextureGL(
@@ -92,7 +92,7 @@ bool ExternalTextureGL::PopulateTexture(size_t width,
   }
 
   // Populate the texture object used by the engine.
-  opengl_texture->target = GL_TEXTURE_2D;
+  opengl_texture->target = GL_TEXTURE_3D;
   opengl_texture->name = state_->gl_texture;
 #ifdef USE_GLES3
   opengl_texture->format = GL_RGBA8;
